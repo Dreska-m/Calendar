@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Календарь записи</string>
+
+    <string name="logo">АВТОМАСТЕР</string>
+
+    <string name="Authorization">Авторизация клиента</string>
+    <string name="Registration">Регистрация клиента</string>
+    <string name="Service">Выбор сервиса и услуги</string>
+    <string name="Calendar">Календарь</string>
+
+    <string name="Menu">Меню</string>
+    <string name="Save">Сохранить</string>
+    <string name="entrance">Войти</string>
+    <string name="Record">Записать</string>
+    <string name="register">Зарегистрировать</string>
+    <string name="registration">Регистрация</string>
+    <string name="About_the_developer">Студента ТЭПК, разработчик Козлов Максим 2022</string>
+
+    <string name="Hing_1">Номер телефона</string>
+    <string name="Hing_2">Автомобильный номер</string>
+
+    <string name="Surname">Фамилия клиента</string>
+    <string name="Name">Имя клиента</string>
+    <string name="Middle_name">Отчество клиента</string>
+
+    <string name="service_title">Выберете услугу диагностики</string>
+
+    <string-array name="service">
+        <item>Газоанализ</item>
+        <item>Комплексная диагностика автомобиля</item>
+        <item>Диагностика компьютерная ЭСУД</item>
+        <item>Замер компрессии</item>
+        <item>Система зажигания</item>
+        <item>Замер давления топлива</item>
+        <item>Жидкостная промывка инжектора</item>
+        <item>Ультразвуковая промывка форсунок (снятых)</item>
+    </string-array>
+
+    <string-array name="dop">
+        <item>Кузовные работы</item>
+        <item>Ремонт КПП</item>
+        <item>Ремонт подвески</item>
+        <item>Тонировка и шумоизоляция</item>
+        <item>Установка ГБО</item>
+        <item>Диагностика</item>
+        <item>Шиномонтаж</item>
+        <item>Двигатель</item>
+        <item>Кондиционеры</item>
+        <item>То</item>
+    </string-array>
+
+
+</resources>

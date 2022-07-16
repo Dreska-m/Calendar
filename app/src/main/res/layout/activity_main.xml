@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/logo"
+        style="@style/thor"
+        android:text="@string/Menu" />
+
+
+    <Button
+        android:id="@+id/authorization_bt"
+        style="@style/menu_clc"
+        android:layout_below="@+id/logo"
+        android:onClick="clc_authorization"
+        android:background="@color/pic_color_1"
+        android:text="@string/Authorization" />
+
+
+    <Button
+        android:id="@+id/calendar"
+        style="@style/menu_clc"
+        android:layout_below="@+id/authorization_bt"
+        android:background="@color/pic_color_1"
+        android:text="@string/Calendar"
+        android:onClick="clc_calendar"/>
+
+    <TextView
+        android:id="@+id/logo2"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/pic_color_2"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="@string/About_the_developer" />
+</RelativeLayout>

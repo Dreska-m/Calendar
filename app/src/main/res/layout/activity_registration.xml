@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Registration">
+
+    <TextView
+        android:id="@+id/heading_txt2"
+        style="@style/thor"
+        android:text="@string/Registration" />
+
+    <EditText
+        android:id="@+id/Surname"
+        style="@style/enter"
+        android:layout_below="@+id/heading_txt2"
+        android:layout_marginTop="20sp"
+        android:hint="@string/Surname"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/Name"
+        style="@style/enter"
+        android:layout_below="@+id/Surname"
+        android:layout_marginTop="20sp"
+        android:hint="@string/Name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/Middle_name"
+        style="@style/enter"
+        android:layout_below="@+id/Name"
+        android:layout_marginTop="20sp"
+        android:hint="@string/Middle_name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/Number"
+        style="@style/enter"
+        android:layout_below="@+id/Middle_name"
+        android:maxLength="11"
+        android:layout_marginTop="20sp"
+        android:hint="@string/Hing_1"
+        android:inputType="phone"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/Car"
+        style="@style/enter"
+        android:layout_below="@+id/Number"
+        android:layout_marginTop="20sp"
+        android:maxLength="6"
+        android:hint="@string/Hing_2"
+        android:inputType="textAutoComplete"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/entrance_bt2"
+        style="@style/menu_clc"
+        android:layout_below="@+id/Car"
+        android:layout_marginTop="40sp"
+        android:background="@color/pic_color_1"
+        android:text="@string/register"
+        android:onClick="clc_rgstrtn"/>
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="41dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:background="@color/pic_color_1"
+        android:contentDescription="df"
+        android:onClick="clc_Back_1"
+        app:srcCompat="@drawable/direction_left_arrow_icon_218884" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="42dp"
+        android:layout_height="41dp"
+        android:layout_alignParentRight="true"
+        android:background="@color/pic_color_1"
+        android:contentDescription="df"
+        android:onClick="clc_home_1"
+        app:srcCompat="@drawable/house_home_icon_218857" />
+
+
+</RelativeLayout>
